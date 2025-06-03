@@ -121,7 +121,8 @@ functions.http('main', async (req, res) => {
 			return;
 		}
 		const output = response.candidates[0].content.parts[0].text;
-		res.status(200).send(output);
+		console.log("ete es el tipo de la saida",typeof output)
+		res.status(200).send({output: output});
 	}catch(error){
 		res.status(500).send(`Error processing request: ${error.message}`);
 	}
