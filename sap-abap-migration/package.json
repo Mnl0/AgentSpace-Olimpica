@@ -1,0 +1,27 @@
+{
+  "name": "sap-abap-migration-agent-nodejs",
+  "version": "0.0.1",
+  "description": "Cloud Function en Node.js para migrar código ABAP a S/4HANA usando Vertex AI.",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "@google-cloud/vertexai": "^1.10.0",
+    "dotenv": "^16.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "functions-framework --target=main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mnl0/AgentSpace-Olimpica.git#main"
+  },
+  "author": "Manuel Monjes S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mnl0/AgentSpace-Olimpica/issues"
+  },
+  "homepage": "https://github.com/Mnl0/AgentSpace-Olimpica/tree/main#readme"
+}
